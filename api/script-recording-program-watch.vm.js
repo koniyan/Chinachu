@@ -99,7 +99,7 @@
 			if (d['c:v'] === 'h264') {
 				args.push('-profile:v', 'baseline');
 				args.push('-preset', 'ultrafast');
-				args.push('-tune', 'fastdecode,zerolatency');
+				args.push('-tune', 'fastdecode');
 			}
 			if (d['c:v'] === 'vp9') {
 				args.push('-deadline', 'realtime');
