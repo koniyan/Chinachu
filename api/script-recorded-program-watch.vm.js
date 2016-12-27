@@ -207,7 +207,7 @@ function main(avinfo) {
 
 			if (d['c:v'] === 'h264') {
 				args.push('-profile:v', 'baseline');
-				args.push('-preset', 'ultrafast');
+				args.push('-preset', 'veryfast');
 				args.push('-tune', 'fastdecode');
 			}
 			if (d['c:v'] === 'vp9') {
